@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto RPG</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="virtualBody">
+            <p><a href="https://www.freepik.com/free-photo/alien-forest-illustration_14402237.htm#query=fantasy%20scenario&position=6&from_view=search&track=ais" target="_blank">Image by liuzishan</a> on Freepik</p>
+            <h3>Criado por <a href="https://github.com/jltrench" target="_blank">João Lucca Trench</a></h3>
+            <div class="createFightScreen">
+                <h1>Projeto: RPG - POO</h1>
+                <div class="createFighter">
+                    <input type="text" id="heroName" placeholder="Nome do Personagem" required>
+                    <select name="" id="classes">
+                        <option value="">Classe</option>
+                        <option value="mage">Sorcerer</option>
+                        <option value="knight">Knight</option>
+                    </select>
+                    <button class="createHeroBtn">Criar Personagem</button>
+                </div>
+                <button class="startBtn" disabled>Iniciar</button>
+            </div>
+        </div>
+    </div>
+    <div class="load"></div>
+    
+    
+
+    <div class="fightarea">
+        <div id="char">
+            <div class="lifebar">
+                <div class="bar"></div>
+            </div>
+            <strong class="name">--</strong>
+            <div>
+                <button class="attackBtn">ATACAR</button>
+            </div>
+            <div class="hero">
+                <div class="show">
+                    <H1>WINNER!</H1>
+                </div>
+            </div>
+        </div>
+        <div id="monster">
+            <div class="lifebar">
+                <div class="bar"></div>
+            </div>
+            <strong class="name">Jogador</strong>
+            <div>
+                <button class="attackBtn" disabled>LVL 30</button>
+            </div>
+            
+            <div class="villain">
+                <div class="showVillain">
+                    <H1>WINNER!</H1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="log"></ul>
+
+    <script src="assets/js/classes.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
