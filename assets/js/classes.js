@@ -108,8 +108,6 @@ class Stage {
         this.autoAttack();
         this.animationEnd();
         this.update();
- 
-        process++;
     }
     autoAttack() {
         if(this.fighter2.life < this.fighter2.maxLife) {

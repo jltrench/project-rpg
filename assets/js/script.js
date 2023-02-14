@@ -82,11 +82,6 @@ function startGame(hero, villain) {
         document.querySelector('#monster'),
         log
     );
-    
+
     stage.start();
 } 
-
-
-
-
-
